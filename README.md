@@ -19,11 +19,11 @@
 
 <h3 align="left">Stats:</h3>
 
-<a href="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&show_icons=true&theme=onedark">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&show_icons=true&theme=onedark" />
-</a>
-</br>
-<a href="https://github-readme-stats.vercel.app/api?username=ChristianMRtz&hide=contribs,prs&count_private=true&show_icons=true&theme=onedark">
+
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&show_icons=true&theme=onedark" />
+
+
+
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=ChristianMRtz&hide=contribs,prs&count_private=true&show_icons=true&theme=onedark" />
 </a>
 
