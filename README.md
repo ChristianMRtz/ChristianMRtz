@@ -19,15 +19,12 @@
 
 <h3 align="left">Stats:</h3>
 
-<div align=“center”>
-<div markdown=“1”>
-
-![Chris's langs stats](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&show_icons=true&theme=onedark)
-
-![Chris' GitHub stats](https://github-readme-stats.vercel.app/api?username=ChristianMRtz&hide=contribs,prs&count_private=true&show_icons=true&theme=onedark)
-
-</div>
-</div>
+<a href="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&show_icons=true&theme=onedark">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&show_icons=true&theme=onedark" />
+</a>
+<a href="https://github-readme-stats.vercel.app/api?username=ChristianMRtz&hide=contribs,prs&count_private=true&show_icons=true&theme=onedark">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=ChristianMRtz&hide=contribs,prs&count_private=true&show_icons=true&theme=onedark" />
+</a>
 
  <h3 align="left">Languages and Tools:</h3>
 <p align="center" margin-left="20px" margin-right="20px">
