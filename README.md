@@ -1,6 +1,3 @@
-
-
-
 <h1 align="center">Hi <img align="center" src="https://c.tenor.com/SNL9_xhZl9oAAAAi/waving-hand-joypixels.gif" alt="cube" height="40" width="40" />, I'm Christian</h1>
 <h3 align="center">A Full Stack Developer and Biologist from Peru</h3>
 
@@ -119,6 +116,3 @@
  </a>
 
  </p>
- 
-![Chris' GitHub stats](https://github-readme-stats.vercel.app/api?username=ChristianMRtz&hide=contribs,prs&count_private=true&show_icons=true&theme=onedark)
-
