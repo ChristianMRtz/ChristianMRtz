@@ -1,11 +1,13 @@
 <h1 align="center">Hi 👋, I'm Christian</h1>
 <h3 align="center">A Full Stack Developer and Biologist from Peru</h3>
 
-- 🔭 I’m currently working on **Personal project**
+- 🔭 I’m currently working on a **Personal project**
 
 - 🌱 I’m currently learning **Node.js**
 
 - 📫 How to reach me **christianmr268@gmail.com**
+
+- 💬 Ask me about **Javascript, React, Ruby and Ruby on rails**
 
 - ⚡ Fun fact **I play 🎸 and 🎷, and I also like to put together puzzles like the different variations of rubiks cubes.**
 
