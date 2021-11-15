@@ -28,7 +28,7 @@
   
 <p align="center">
 <a href="https://github.com/ChristianMRtz">
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=ChristianMRtz&hide=contribs&count_private=true&show_icons=true&theme=onedark" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=ChristianMRtz&hide=contribs,prs&count_private=true&show_icons=true&theme=onedark" />
 </a>
 <p>
 
