@@ -19,13 +19,8 @@
 
 <h3 align="left">Stats:</h3>
 
-
 <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&show_icons=true&theme=onedark" />
-
-
-
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=ChristianMRtz&hide=contribs,prs&count_private=true&show_icons=true&theme=onedark" />
-</a>
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=ChristianMRtz&hide=contribs,prs&count_private=true&show_icons=true&theme=onedark" />
 
  <h3 align="left">Languages and Tools:</h3>
 <p align="center" margin-left="20px" margin-right="20px">
