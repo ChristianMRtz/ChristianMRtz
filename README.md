@@ -1,15 +1,15 @@
-<h1 align="center">Hi 👋, I'm Christian</h1>
+<h1 align="center">Hi <img align="center" src="https://c.tenor.com/SNL9_xhZl9oAAAAi/waving-hand-joypixels.gif" alt="cube" height="40" width="40" />, I'm Christian</h1>
 <h3 align="center">A Full Stack Developer and Biologist from Peru</h3>
 
-- 🔭 I’m currently working on a **Personal project**
+- 🔭 I’m currently working on a **Personal project.**
 
-- 🌱 I’m currently learning **Node.js**
+- 🌱 I’m currently learning **Node.js.**
 
-- 📫 How to reach me **christianmr268@gmail.com**
+- 📫 How to reach me **christianmr268@gmail.com.**
 
-- 💬 Ask me about **Javascript, React, Ruby and Ruby on rails**
+- 💬 Ask me about **Javascript, React, Ruby and Ruby on rails.**
 
-- ⚡ Fun fact **I play 🎸 and 🎷, and I also like to put together puzzles like the different variations of rubiks cubes.**
+- ⚡ Fun fact **I play 🎸 and 🎷, and I also like to put together puzzles like the different variations of <img align="center" src="https://static.wixstatic.com/media/1d30da_0ffdf1f786d34655906ef1c7f6a51408~mv2.gif" alt="cube" height="20" width="20" />'s.**
 
 <h3 align="left">Connect with me:</h3>
 <p align="center">
@@ -105,7 +105,7 @@
 
  </p>
   
-</br>
+<h3 align="left">Stats:</h3>
 
 <p align="center">
 <a href="https://github.com/ChristianMRtz">
