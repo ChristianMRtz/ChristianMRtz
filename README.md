@@ -20,11 +20,15 @@
 <h3 align="left">Stats:</h3>
 
 <p align="center">
+ 
 <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=compact&show_icons=true&theme=onedark" />
-
-</br>
-
+ 
+ </p>
+ 
+ <p align="center">
+ 
 <img align="center" src="https://github-readme-stats.vercel.app/api?username=ChristianMRtz&hide=contribs,prs&count_private=true&show_icons=true&theme=onedark" />
+ 
 </p>
 
  <h3 align="left">Languages and Tools:</h3>
