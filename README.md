@@ -24,7 +24,7 @@
 </br>
 
 <p align="center">
-<a href="https://github.com/anuraghazra/convoychat">
+<a href="https://github.com/ChristianMRtz">
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChristianMRtz&show_icons=true&theme=onedark" />
 </a>
 <p>
