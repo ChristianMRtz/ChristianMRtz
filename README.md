@@ -25,6 +25,13 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ChristianMRtz&show_icons=true&theme=onedark" />
 </a>
 <p>
+
+<p align="center">
+<a href="https://github.com/ChristianMRtz">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=ChristianMRtz&show_icons=true&theme=onedark" />
+</a>
+<p>
+
  
  <h3 align="left">Languages and Tools:</h3>
 <p align="center" margin-left="20px" margin-right="20px">
