@@ -1,0 +1,71 @@
+/* ============================================
+   MODAL LIGHT MODE
+   ============================================ */
+
+/* Base Modal Light Mode */
+.app.light .modal-backdrop {
+    background: rgba(15, 23, 42, 0.4);
+}
+
+.app.light .modal-card {
+    background: rgba(255, 255, 255, 0.98);
+    border: 1px solid #cbd5e1;
+    box-shadow:
+        0 20px 60px rgba(15, 23, 42, 0.2),
+        0 0 0 1px rgba(2, 132, 199, 0.1);
+}
+
+.app.light .modal-card::before {
+    background: linear-gradient(90deg,
+            rgba(2, 132, 199, 0.6),
+            rgba(99, 102, 241, 0.6),
+            rgba(59, 130, 246, 0.6));
+}
+
+.app.light .modal-header h3 {
+    color: #0f172a;
+}
+
+.app.light .modal-close {
+    background: rgba(15, 23, 42, 0.05);
+    border-color: #cbd5e1;
+    color: #0f172a;
+}
+
+.app.light .modal-close:hover {
+    background: rgba(15, 23, 42, 0.1);
+    border-color: #94a3b8;
+}
+
+.app.light .modal-body {
+    color: #334155;
+}
+
+/* Projects Modal Light Mode */
+.app.light .project-card-modal {
+    background: linear-gradient(135deg, rgba(224, 242, 254, 0.4), rgba(240, 249, 255, 0.6));
+    border-color: rgba(2, 132, 199, 0.3);
+}
+
+.app.light .project-card-modal:hover {
+    border-color: rgba(2, 132, 199, 0.5);
+    box-shadow: 0 8px 24px rgba(2, 132, 199, 0.2);
+}
+
+.app.light .project-card-modal h4 {
+    color: #0f172a;
+}
+
+.app.light .project-card-modal p {
+    color: #475569;
+}
+
+.app.light .project-card-modal .project-stat {
+    background: rgba(2, 132, 199, 0.1);
+    border-color: rgba(2, 132, 199, 0.3);
+    color: #0369a1;
+}
+
+.app.light .project-card-modal .card-meta {
+    color: #64748b;
+}

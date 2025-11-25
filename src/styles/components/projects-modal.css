@@ -1,0 +1,76 @@
+/* ============================================
+   PROJECTS MODAL
+   ============================================ */
+
+.projects-modal-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+}
+
+/* Project Card */
+.project-card-modal {
+    padding: 1.5rem;
+    background: linear-gradient(135deg, rgba(30, 41, 59, 0.4), rgba(15, 23, 42, 0.6));
+    border: 1px solid rgba(56, 189, 248, 0.2);
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+}
+
+.project-card-modal:hover {
+    border-color: rgba(56, 189, 248, 0.4);
+    box-shadow: 0 8px 24px rgba(56, 189, 248, 0.15);
+    transform: translateY(-2px);
+}
+
+/* Project Header */
+.project-card-modal .project-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.project-card-modal .project-icon {
+    font-size: 2rem;
+    filter: drop-shadow(0 0 8px rgba(56, 189, 248, 0.4));
+}
+
+.project-card-modal h4 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #e5e7eb;
+}
+
+/* Project Content */
+.project-card-modal p {
+    margin: 0 0 1rem;
+    color: #cbd5e1;
+    line-height: 1.7;
+}
+
+/* Project Stats */
+.project-card-modal .project-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.project-card-modal .project-stat {
+    padding: 0.35rem 0.75rem;
+    background: rgba(56, 189, 248, 0.1);
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    border-radius: 999px;
+    color: #7dd3fc;
+    font-size: 0.75rem;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.project-card-modal .card-meta {
+    margin: 0;
+    color: #94a3b8;
+    font-size: 0.85rem;
+}

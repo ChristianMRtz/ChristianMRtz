@@ -1,0 +1,343 @@
+{
+  "nav": {
+    "about": "Acerca de",
+    "skills": "Habilidades",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "tag": "Desarrollador Full Stack · Kotlin · React · Prevención de Fraude",
+    "title": "Hola, soy Christian.",
+    "subtitle": "Soy un Desarrollador Full Stack enfocado en construir soluciones de alto impacto y listas para producción usando Kotlin, Vert.x, React y herramientas modernas nativas de la nube.",
+    "body": "Me especializo en prevención de fraude, optimización de procesos y entrega de funcionalidades de alta calidad bajo plazos ajustados. Prospero en entornos de ritmo acelerado y me encanta convertir problemas complejos en soluciones limpias y escalables.",
+    "viewProjects": "Ver Proyectos",
+    "getInTouch": "Contáctame"
+  },
+  "about": {
+    "title": "Acerca de Mí",
+    "yearsExperience": "Años de Experiencia",
+    "projectsCompleted": "Proyectos Completados",
+    "technologiesMastered": "Tecnologías Dominadas",
+    "codeCommits": "Commits de Código",
+    "bio": {
+      "title": "Desarrollador Pragmático. Aprendizaje Rápido. Orientado al Impacto.",
+      "p1": "Soy Ingeniero de Software Full Stack con más de 3 años de experiencia profesional construyendo sistemas de producción en empresas fintech. He trabajado extensamente con Kotlin y Vert.x en el backend, y React con TypeScript en el frontend.",
+      "p2": "Mi experiencia radica en sistemas de prevención de fraude, arquitectura de microservicios y construcción de herramientas que manejan escala del mundo real. Me apasiona el código limpio, el desarrollo guiado por pruebas y lanzar funcionalidades que los usuarios realmente necesitan.",
+      "p3": "Más allá del trabajo diario, me encanta experimentar con nuevas tecnologías, contribuir al código abierto y mantenerme a la vanguardia de la ingeniería de software. Siempre aprendiendo, siempre construyendo."
+    },
+    "stats": {
+      "experience": {
+        "title": "3.5+ Años de Experiencia",
+        "subtitle": "Trayectoria Profesional",
+        "details": [
+          {
+            "period": "Junio 2022 - Presente",
+            "role": "Desarrollador Full Stack en Rappi",
+            "description": "Liderando iniciativas de automatización de fraude, construyendo microservicios con Kotlin + Vert.x, y desarrollando dashboards React para analistas de fraude.",
+            "highlights": [
+              "Reducción del 60% en tiempo de revisión manual",
+              "Construí sistemas que manejan millones de transacciones",
+              "Lideré iniciativas técnicas entre equipos"
+            ]
+          },
+          {
+            "period": "2021 - 2022",
+            "role": "Carrera Inicial y Aprendizaje",
+            "description": "Enfocado en dominar el stack tecnológico moderno, contribuyendo a código abierto y construyendo proyectos personales.",
+            "highlights": [
+              "Completé cursos avanzados en  React, JavaScript, Node, Ruby y Ruby on Rails",
+              "Construí múltiples proyectos full-stack",
+              "Contribuí a comunidades de desarrolladores"
+            ]
+          }
+        ]
+      },
+      "technologies": {
+        "title": "10+ Tecnologías",
+        "subtitle": "Arsenal Técnico",
+        "description": "Competente en todo el stack con experiencia profunda en arquitecturas orientadas a eventos, sistemas en tiempo real y desarrollo moderno nativo de la nube.",
+        "categories": [
+          {
+            "name": "Backend",
+            "items": ["Kotlin", "Vert.x", "Ruby on Rails", "Java"]
+          },
+          {
+            "name": "Frontend",
+            "items": ["React.js", "TypeScript", "CSS/Tailwind"]
+          },
+          {
+            "name": "Datos e Infraestructura",
+            "items": ["Kafka", "Redis", "PostgreSQL", "MongoDB", "Docker", "AWS S3"]
+          },
+          {
+            "name": "Testing y Herramientas",
+            "items": ["Jest", "Mockito", "Git", "CI/CD"]
+          }
+        ]
+      },
+      "commitment": {
+        "title": "100% Compromiso",
+        "subtitle": "Filosofía de Trabajo",
+        "values": [
+          {
+            "title": "Calidad Primero",
+            "description": "Cada línea de código se escribe pensando en mantenibilidad, rendimiento y seguridad. Las pruebas exhaustivas y revisiones de código son innegociables."
+          },
+          {
+            "title": "Aprendizaje Continuo",
+            "description": "La tecnología evoluciona rápidamente. Me mantengo actualizado a través de cursos, documentación y experimentación práctica con herramientas y patrones emergentes."
+          },
+          {
+            "title": "Colaboración en Equipo",
+            "description": "El gran software lo construyen grandes equipos. Activamente hago mentoría a juniors, comparto conocimiento y contribuyo a una cultura de ingeniería positiva."
+          },
+          {
+            "title": "Solucionador de Problemas",
+            "description": "Prospero con desafíos complejos. Ya sea optimizando una consulta lenta o arquitectando un nuevo servicio, me impulsa encontrar soluciones elegantes."
+          }
+        ]
+      }
+    }
+  },
+  "skills": {
+    "title": "Habilidades y Tecnologías",
+    "categories": {
+      "backend": "Backend",
+      "frontend": "Frontend",
+      "cloud": "Cloud y DevOps",
+      "tools": "Herramientas y Otros"
+    },
+    "modal": {
+      "advanced": "⭐ Avanzado",
+      "intermediate": "📚 Intermedio",
+      "about": "Acerca de",
+      "projectsApplications": "Proyectos y Aplicaciones",
+      "expertLevel": "Nivel Experto",
+      "proficient": "Competente"
+    },
+    "data": {
+      "Kotlin": {
+        "experience": "3+ años",
+        "description": "Lenguaje principal para construir microservicios de alto rendimiento en Rappi. Amplia experiencia con corrutinas, flows y patrones de programación funcional.",
+        "projects": ["Motor de Automatización de Fraude", "Servicios de Procesamiento de Pagos", "Evaluación de Riesgo en Tiempo Real"]
+      },
+      "Vert.x": {
+        "experience": "3+ años",
+        "description": "Construcción de microservicios reactivos orientados a eventos que manejan detección de fraude de alto rendimiento. Experto en verticles, event bus y programación asíncrona.",
+        "projects": ["Sistema de Detección de Fraude", "Pipeline de Procesamiento de Transacciones"]
+      },
+      "React.js": {
+        "experience": "3+ años",
+        "description": "Desarrollo de dashboards internos y herramientas operativas usadas diariamente por analistas de fraude. Competente en hooks, context y optimización de rendimiento.",
+        "projects": ["Dashboard de Analítica de Fraude", "UI de Gestión de Reglas", "Herramientas de Monitoreo"]
+      },
+      "Ruby": {
+        "experience": "2+ años",
+        "description": "Usado para servicios backend y scripts de automatización. Familiarizado con el paradigma orientado a objetos de Ruby y metaprogramación.",
+        "projects": ["Herramientas de Automatización Interna", "Scripts de Procesamiento de Datos"]
+      },
+      "Ruby on Rails": {
+        "experience": "2+ años",
+        "description": "Construcción y mantenimiento de aplicaciones web siguiendo patrones MVC. Experiencia con ActiveRecord, trabajos en segundo plano y desarrollo de APIs.",
+        "projects": ["Dashboard de Administración", "Herramientas Internas"]
+      },
+      "Java": {
+        "experience": "2+ años",
+        "description": "Base sólida en principios de POO, colecciones y streams. Usado para varios servicios backend e integraciones.",
+        "projects": ["Servicios de Integración", "Herramientas de Migración de Datos"]
+      },
+      "TypeScript": {
+        "experience": "3+ años",
+        "description": "Desarrollo con tipos seguros para aplicaciones frontend complejas. Experto en tipos avanzados, genéricos e inferencia de tipos.",
+        "projects": ["Dashboard de Analítica", "Bibliotecas de Componentes"]
+      },
+      "JavaScript": {
+        "experience": "4+ años",
+        "description": "Comprensión profunda de ES6+, patrones asíncronos y programación funcional. Competente tanto en frontend como en entornos Node.js.",
+        "projects": ["Múltiples Aplicaciones Frontend", "Herramientas de Construcción"]
+      },
+      "CSS/Tailwind": {
+        "experience": "3+ años",
+        "description": "CSS moderno incluyendo Grid, Flexbox, animaciones. Tailwind CSS para desarrollo rápido de UI con enfoque utility-first.",
+        "projects": ["Sistemas de Diseño", "Dashboards Responsivos"]
+      },
+      "Kafka": {
+        "experience": "3+ años",
+        "description": "Streaming de eventos para detección de fraude en tiempo real. Experiencia con productores, consumidores, tópicos y semántica exactly-once.",
+        "projects": ["Arquitectura Orientada a Eventos", "Pipelines de Procesamiento en Tiempo Real"]
+      },
+      "Redis": {
+        "experience": "3+ años",
+        "description": "Caché, gestión de sesiones y analítica en tiempo real. Competente con estructuras de datos, pub/sub y ajuste de rendimiento.",
+        "projects": ["Sistemas de Limitación de Tasa", "Capa de Caché", "Almacén de Sesiones"]
+      },
+      "PostgreSQL": {
+        "experience": "3+ años",
+        "description": "Consultas complejas, estrategias de indexación y optimización de rendimiento. Experiencia con JSONB, CTEs y funciones de ventana.",
+        "projects": ["Base de Datos de Fraude", "Consultas de Analítica", "Almacenamiento de Datos"]
+      },
+      "MongoDB": {
+        "experience": "2+ años",
+        "description": "Modelado de datos basado en documentos y pipelines de agregación. Usado para requisitos de esquema flexible y analítica.",
+        "projects": ["Almacenamiento de Logs", "Gestión de Configuración"]
+      },
+      "AWS S3": {
+        "experience": "2+ años",
+        "description": "Almacenamiento de objetos para archivos, respaldos y data lakes. Experiencia con políticas de ciclo de vida, versionado y seguridad.",
+        "projects": ["Servicio de Almacenamiento de Archivos", "Soluciones de Respaldo"]
+      },
+      "Docker": {
+        "experience": "3+ años",
+        "description": "Contenedorización de microservicios. Experto en optimización de Dockerfile, builds multi-etapa y docker-compose.",
+        "projects": ["Todos los Microservicios", "Entornos de Desarrollo"]
+      },
+      "Mockito": {
+        "experience": "3+ años",
+        "description": "Pruebas unitarias con frameworks de mocking. Escritura de suites de prueba completas para servicios Java/Kotlin.",
+        "projects": ["Suites de Prueba de Servicios", "Pruebas de Integración"]
+      },
+      "Jest": {
+        "experience": "3+ años",
+        "description": "Pruebas frontend incluyendo pruebas unitarias, de integración y snapshot. Logro de alta cobertura de código en aplicaciones React.",
+        "projects": ["Suite de Pruebas de Dashboard", "Pruebas de Componentes"]
+      },
+      "Git": {
+        "experience": "4+ años",
+        "description": "Mejores prácticas de control de versiones, estrategias de ramificación y flujos de revisión de código. Experiencia con escenarios de merge complejos.",
+        "projects": ["Todos los Proyectos"]
+      },
+      "AI-assisted development": {
+        "experience": "2+ años",
+        "description": "Aprovechamiento de herramientas de IA para generación de código, refactorización y resolución de problemas. Integración de IA en el flujo de desarrollo.",
+        "projects": ["Prototipado Rápido", "Optimización de Código"]
+      }
+    }
+  },
+  "experience": {
+    "title": "Experiencia Profesional",
+    "present": "Presente",
+    "responsibilities": "Responsabilidades Clave:",
+    "achievements": "Logros Clave:",
+    "jobs": {
+      "clip": {
+        "title": "Ingeniero de Software",
+        "company": "Rappi",
+        "period": "Junio 2022 - Presente",
+        "description": "Desarrollador Full Stack en el Equipo de Fraude, construyendo herramientas críticas anti-fraude y plataformas internas utilizadas diariamente por más de 500 analistas.",
+        "responsibilities": [
+          "Contribuí a la construcción de un sistema automatizado de disputas en PDF integrando más de 5 microservicios, permitiendo al equipo de fraude ganar contracargos y recuperar pérdidas significativas",
+          "Contribuí al desarrollo de una plataforma BackOffice multilenguaje full-stack usando React, TypeScript y APIs REST para gestionar reglas de detección de fraude, bloqueos de cuentas y acciones automatizadas",
+          "Integré APIs de terceros (Cybersource, Incode) para verificación biométrica y calificación de riesgos",
+          "Desarrollé servicios backend usando Kotlin y Vert.x para arquitectura de microservicios de alto rendimiento",
+          "Implementé mensajería asíncrona con Apache Kafka para flujos de trabajo de detección de fraude en tiempo real",
+          "Escribí pruebas unitarias e de integración exhaustivas usando JUnit, Mockito y Testcontainers"
+        ],
+        "achievements": [
+          "Reduje el tiempo de resolución de disputas en un 70% mediante automatización",
+          "Mejoré la precisión de detección de fraude en un 35% con un nuevo motor de reglas",
+          "Desplegué exitosamente más de 50 lanzamientos en producción sin incidentes críticos"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "title": "Proyectos Destacados",
+    "viewOnGitHub": "Ver en GitHub →",
+    "production": "Producción",
+    "highImpact": "Alto Impacto",
+    "realtime": "Tiempo Real",
+    "users": "Usuarios",
+    "stars": "Estrellas",
+    "fullStack": "Full Stack",
+    "vanillaJS": "Vanilla JS",
+    "frontend": "Frontend",
+    "responsive": "Responsivo",
+    "auth": "Autenticación",
+    "restAPI": "API REST",
+    "aiOpponent": "Oponente IA",
+    "gameLogic": "Lógica de Juego",
+    "animations": "Animaciones",
+    "apiIntegration": "Integración API",
+    "interactive": "Interactivo",
+    "reactNative": "React Native",
+    "list": {
+      "disputeResolution": {
+        "title": "Sistema Automatizado de Resolución de Disputas",
+        "description": "Sistema de generación automática de PDF para disputas de contracargos que se integra con múltiples microservicios para compilar evidencia, historial de usuarios y datos de transacciones. Permitió exitosamente al equipo de fraude ganar disputas y recuperar pérdidas financieras significativas.",
+        "tech": "Kotlin · Vert.x · React · Generación PDF · Microservicios"
+      },
+      "backoffice": {
+        "title": "BackOffice - Plataforma de Prevención de Fraude",
+        "description": "Aplicación React multilenguaje full-stack que orquesta múltiples microservicios para implementar reglas de detección de fraude, bloqueos de cuentas y acciones automatizadas. Se integra con servicios de terceros como Cybersource e Incode para verificación biométrica y scoring de riesgo. Utilizada diariamente por más de 500 analistas de fraude en operaciones.",
+        "tech": "React.js · TypeScript · APIs REST · Microservicios"
+      },
+      "expensable": {
+        "title": "Expensable",
+        "description": "Aplicación full-stack de gestión de gastos e ingresos. Incluye seguimiento en tiempo real, categorización y panel de información financiera para administración de presupuesto personal.",
+        "tech": "JavaScript · Node.js · Express · MongoDB"
+      },
+      "doable": {
+        "title": "Doable",
+        "description": "Aplicación de gestión de tareas construida con JavaScript Vanilla. Arquitectura limpia con persistencia en almacenamiento local, funcionalidad de arrastrar y soltar y organización basada en prioridades.",
+        "tech": "JavaScript · HTML5 · CSS3 · LocalStorage"
+      },
+      "twitterClone": {
+        "title": "Clon de Twitter",
+        "description": "Clon de plataforma de redes sociales construido con Ruby on Rails. Implementa características principales de Twitter incluyendo tweets, seguimientos, likes y actualizaciones de feed en tiempo real con asociaciones ActiveRecord.",
+        "tech": "Ruby on Rails · PostgreSQL · ActionCable · Turbo"
+      },
+      "statisticsAPI": {
+        "title": "API de Estadísticas",
+        "description": "API RESTful para procesamiento y análisis de datos estadísticos. Proporciona endpoints para agregación de datos, visualización y cálculos estadísticos en tiempo real.",
+        "tech": "Ruby · Sinatra · Redis · RSpec"
+      },
+      "cliviaGenerator": {
+        "title": "Generador Clivia",
+        "description": "Juego de trivia interactivo para probar conocimientos en múltiples categorías. Incluye generación dinámica de preguntas, sistema de puntuación y progresión de dificultad.",
+        "tech": "Ruby · ERB · SQLite · Patrón MVC"
+      },
+      "pokemonChallenge": {
+        "title": "Desafío Pokémon",
+        "description": "Aplicación de juego Pokémon interactivo construida con JavaScript. Incluye integración de API, renderizado dinámico de datos y mecánicas de juego atractivas.",
+        "tech": "JavaScript · API REST · Manipulación DOM"
+      },
+      "socialNetworkFrontend": {
+        "title": "Frontend de Red Social",
+        "description": "Frontend moderno para una plataforma de redes sociales. Implementa componentes UI responsivos, interacciones de usuario y actualizaciones de feed en tiempo real con animaciones suaves.",
+        "tech": "JavaScript · HTML5 · CSS3 · Fetch API"
+      },
+      "socialNetworkAPI": {
+        "title": "API de Red Social",
+        "description": "API backend para plataforma de redes sociales. Arquitectura RESTful con autenticación, gestión de usuarios, publicaciones, comentarios y relaciones de amistad.",
+        "tech": "Ruby · Rails · PostgreSQL · JWT"
+      },
+      "battleship": {
+        "title": "Juego de Batalla Naval",
+        "description": "Implementación del clásico juego de batalla naval con JavaScript. Incluye oponente IA, jugabilidad interactiva basada en cuadrícula y mecánicas de colocación de barcos.",
+        "tech": "JavaScript · Canvas API · Lógica de Juego"
+      },
+      "sunnyside": {
+        "title": "Página de Destino Sunnyside",
+        "description": "Desafío de diseño de página de destino responsiva moderna. Implementación pixel-perfect con animaciones suaves, enfoque mobile-first y rendimiento optimizado.",
+        "tech": "HTML5 · CSS3 · JavaScript · Diseño Responsivo"
+      },
+      "expoContext": {
+        "title": "Demo Expo Context",
+        "description": "Aplicación React Native demostrando patrones de Context API con Expo. Muestra gestión de estado, cambio de temas y mejores prácticas de flujo de datos entre componentes.",
+        "tech": "React Native · Expo · Context API · Hooks"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contáctame",
+    "subtitle": "Construyamos algo grandioso juntos",
+    "description": "Siempre estoy abierto a discutir nuevos proyectos, oportunidades o simplemente conversar sobre tecnología. ¡No dudes en contactarme!",
+    "email": "Correo",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "sendMessage": "Envíame un mensaje",
+    "or": "o conéctate vía",
+    "footer": "🚀 ¡Espero quedar contigo pronto!"
+  }
+}

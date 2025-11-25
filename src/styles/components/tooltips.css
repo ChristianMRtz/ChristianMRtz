@@ -1,0 +1,54 @@
+/* ============================================
+   SKILL TOOLTIPS
+   ============================================ */
+
+.skill-tooltip {
+    position: absolute;
+    bottom: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(15, 23, 42, 0.95);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(56, 189, 248, 0.4);
+    border-radius: 0.75rem;
+    padding: 0.75rem 1rem;
+    min-width: 180px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4), 0 0 20px rgba(56, 189, 248, 0.2);
+    z-index: 100;
+    pointer-events: none;
+}
+
+.skill-tooltip::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 6px solid transparent;
+    border-top-color: rgba(56, 189, 248, 0.4);
+}
+
+.tooltip-level {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #38bdf8;
+    margin-bottom: 0.3rem;
+    text-align: center;
+}
+
+.tooltip-exp {
+    font-size: 0.75rem;
+    color: #cbd5e1;
+    margin-bottom: 0.3rem;
+    text-align: center;
+}
+
+.tooltip-hint {
+    font-size: 0.7rem;
+    color: #94a3b8;
+    text-align: center;
+    font-style: italic;
+    margin-top: 0.4rem;
+    padding-top: 0.4rem;
+    border-top: 1px solid rgba(56, 189, 248, 0.2);
+}

@@ -1,0 +1,66 @@
+/* ============================================
+   CHIPS COMPONENT
+   ============================================ */
+
+.chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.chip-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.chip {
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    font-size: 0.85rem;
+    color: #e5e7eb;
+    background: linear-gradient(135deg, rgba(56, 189, 248, 0.08), rgba(129, 140, 248, 0.08));
+    transition: all 0.3s ease;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.chip-clickable {
+    cursor: pointer;
+    padding: 0.6rem 1.1rem;
+}
+
+.chip-clickable:hover {
+    transform: translateY(-3px) scale(1.05);
+    border-color: rgba(56, 189, 248, 0.5);
+    background: linear-gradient(135deg, rgba(56, 189, 248, 0.15) 0%, rgba(129, 140, 248, 0.1) 100%);
+    box-shadow: 0 8px 20px rgba(56, 189, 248, 0.3), 0 0 30px rgba(56, 189, 248, 0.15);
+}
+
+.chip-name {
+    font-weight: 600;
+}
+
+.chip-level {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 999px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.chip-level.advanced {
+    background: linear-gradient(135deg, #10b981, #059669);
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(16, 185, 129, 0.3);
+}
+
+.chip-level.intermediate {
+    background: linear-gradient(135deg, #f59e0b, #d97706);
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(245, 158, 11, 0.3);
+}

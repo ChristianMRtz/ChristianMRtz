@@ -1,0 +1,29 @@
+/* ============================================
+   CONTACT LINKS & FOOTER
+   ============================================ */
+
+.contact-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.link {
+    color: #38bdf8;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(55, 65, 81, 0.8);
+    font-size: 0.8rem;
+    color: #6b7280;
+    text-align: center;
+}

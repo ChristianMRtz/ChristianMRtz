@@ -1,0 +1,415 @@
+/* ============================================
+   LIGHT THEME OVERRIDES
+   ============================================ */
+
+/* Toggle button */
+.theme-toggle {
+    background: rgba(56, 189, 248, 0.1);
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    padding: 0.5rem 0.75rem;
+    border-radius: 999px;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    backdrop-filter: blur(4px);
+    transition: all 0.3s ease;
+    line-height: 1;
+}
+
+.theme-toggle:hover {
+    background: rgba(56, 189, 248, 0.2);
+    border-color: rgba(56, 189, 248, 0.5);
+    transform: scale(1.05);
+}
+
+/* LIGHT THEME */
+.app.light {
+    background: radial-gradient(circle at top, #e0f2fe 0, #f9fafb 55%, #f3f4f6 100%);
+    color: #0f172a;
+}
+
+/* Navbar light mode */
+.app.light .navbar {
+    background: rgba(255, 255, 255, 0.8);
+    border-bottom-color: rgba(203, 213, 225, 0.5);
+}
+
+.app.light .nav-link {
+    color: #475569;
+}
+
+.app.light .nav-link:hover {
+    color: #0284c7;
+}
+
+.app.light .hero-tag {
+    color: #0284c7;
+    font-weight: 600;
+}
+
+.app.light .link {
+    color: #0284c7;
+    font-weight: 500;
+}
+
+.app.light .three-hero-container {
+    background: radial-gradient(circle at top, #e0f2fe 0, #dbeafe 60%);
+    border: 1px solid rgba(148, 163, 184, 0.5);
+}
+
+.app.light .btn.ghost {
+    background: rgba(255, 255, 255, 0.9);
+    color: #0f172a;
+    border-color: #cbd5e1;
+    font-weight: 500;
+}
+
+.app.light .btn.ghost:hover {
+    background: #ffffff;
+    border-color: #94a3b8;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08);
+}
+
+.app.light .btn.primary {
+    background: #0284c7;
+    color: #ffffff;
+    box-shadow: 0 10px 25px rgba(2, 132, 199, 0.3);
+    font-weight: 600;
+}
+
+.app.light .btn.primary:hover {
+    background: #0369a1;
+    box-shadow: 0 16px 35px rgba(2, 132, 199, 0.4);
+}
+
+/* Typography and colors - light mode */
+.app.light .hero-title {
+    background: linear-gradient(135deg, #0f2048 0%, #122a50 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.app.light .hero-subtitle {
+    color: #0f172a;
+    font-weight: 600;
+}
+
+.app.light .hero-body {
+    color: #1e293b;
+}
+
+.app.light .section p {
+    color: #334155;
+}
+
+.app.light .section h2 {
+    color: #0f172a;
+}
+
+.app.light .hero {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 24px;
+    padding: 2rem 2rem;
+    box-shadow:
+        0 18px 45px rgba(15, 23, 42, 0.12),
+        0 1px 3px rgba(15, 23, 42, 0.06);
+}
+
+/* Cards in light mode */
+.app.light .card {
+    background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 16px rgba(15, 23, 42, 0.08);
+    transition: all 0.3s ease;
+}
+
+.app.light .card:hover {
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.12);
+    transform: translateY(-2px);
+    border-color: #cbd5e1;
+}
+
+.app.light .card h3 {
+    color: #0f172a;
+    font-weight: 600;
+}
+
+.app.light .card h4 {
+    color: #0f172a;
+    font-weight: 600;
+}
+
+.app.light .hover-word.hovered {
+    color: #0f172a;
+    text-shadow: 0 0 12px rgba(56, 189, 248, 0.5);
+}
+
+.app.light .card p {
+    color: #475569;
+}
+
+.app.light .card-meta {
+    color: #64748b;
+    font-weight: 500;
+}
+
+.app.light .card-list {
+    color: #475569;
+}
+
+.app.light .card-list li {
+    margin-bottom: 0.5rem;
+}
+
+/* Chips in light mode */
+.app.light .chip {
+    background: rgba(2, 132, 199, 0.08);
+    border-color: #bae6fd;
+    color: #075985;
+    font-weight: 500;
+}
+
+.app.light .chip-clickable:hover {
+    background: rgba(2, 132, 199, 0.18);
+    border-color: #7dd3fc;
+    box-shadow: 0 6px 16px rgba(2, 132, 199, 0.2);
+}
+
+/* Tooltip light mode */
+.app.light .skill-tooltip {
+    background: rgba(255, 255, 255, 0.98);
+    border-color: #7dd3fc;
+    box-shadow: 0 8px 24px rgba(2, 132, 199, 0.15), 0 0 20px rgba(2, 132, 199, 0.1);
+}
+
+.app.light .skill-tooltip::after {
+    border-top-color: #7dd3fc;
+}
+
+.app.light .tooltip-level {
+    color: #0284c7;
+}
+
+.app.light .tooltip-exp {
+    color: #475569;
+}
+
+.app.light .tooltip-hint {
+    color: #64748b;
+    border-top-color: #cbd5e1;
+}
+
+.app.light .skills-subtitle {
+    color: #64748b;
+}
+
+/* Skill modal light mode */
+.app.light .skill-experience {
+    background: rgba(2, 132, 199, 0.15);
+    border-color: #7dd3fc;
+    color: #0369a1;
+}
+
+.app.light .skill-description h4,
+.app.light .skill-projects h4 {
+    color: #0284c7;
+}
+
+.app.light .skill-description p,
+.app.light .skill-projects li {
+    color: #475569;
+}
+
+.app.light .project-bullet {
+    color: #0284c7;
+}
+
+.app.light .progress-bar {
+    background: rgba(226, 232, 240, 0.8);
+    border-color: #cbd5e1;
+}
+
+.app.light .progress-label {
+    color: #64748b;
+}
+
+.app.light .skill-footer {
+    border-top-color: #e2e8f0;
+}
+
+/* Stats cards light mode */
+.app.light .stat-card {
+    background: linear-gradient(135deg, rgba(224, 242, 254, 0.8), rgba(255, 255, 255, 0.9));
+    border-color: #bae6fd;
+}
+
+.app.light .stat-card:hover,
+.app.light .stat-card-clickable:hover {
+    border-color: #7dd3fc;
+    box-shadow: 0 8px 24px rgba(2, 132, 199, 0.15);
+}
+
+.app.light .stat-tooltip {
+    background: rgba(255, 255, 255, 0.98);
+    border-color: #7dd3fc;
+    box-shadow: 0 8px 24px rgba(2, 132, 199, 0.15), 0 0 20px rgba(2, 132, 199, 0.1);
+}
+
+.app.light .stat-tooltip::after {
+    border-top-color: #7dd3fc;
+}
+
+/* Stat modal light mode */
+.app.light .stat-modal-header {
+    border-bottom-color: #e2e8f0;
+}
+
+.app.light .stat-modal-header h4 {
+    color: #0284c7;
+}
+
+.app.light .timeline-item {
+    border-left-color: #7dd3fc;
+}
+
+.app.light .timeline-period {
+    color: #64748b;
+}
+
+.app.light .timeline-role {
+    color: #0284c7;
+}
+
+.app.light .timeline-description,
+.app.light .timeline-highlights li {
+    color: #475569;
+}
+
+.app.light .tech-description {
+    color: #475569;
+    border-bottom-color: #e2e8f0;
+}
+
+.app.light .tech-category-name {
+    color: #0284c7;
+}
+
+.app.light .tech-tag {
+    background: linear-gradient(135deg, rgba(224, 242, 254, 0.6), rgba(255, 255, 255, 0.8));
+    border-color: #7dd3fc;
+    color: #0369a1;
+}
+
+.app.light .value-item {
+    background: linear-gradient(135deg, rgba(224, 242, 254, 0.4), rgba(255, 255, 255, 0.6));
+    border-left-color: #7dd3fc;
+}
+
+.app.light .value-title {
+    color: #0284c7;
+}
+
+.app.light .value-description {
+    color: #475569;
+}
+
+/* Contact modal light mode */
+.app.light .contact-intro {
+    color: #475569;
+}
+
+.app.light .contact-method {
+    background: linear-gradient(135deg, rgba(224, 242, 254, 0.5), rgba(255, 255, 255, 0.8));
+    border-color: #bae6fd;
+}
+
+.app.light .contact-method:hover {
+    border-color: #7dd3fc;
+    background: linear-gradient(135deg, rgba(224, 242, 254, 0.8), rgba(255, 255, 255, 0.95));
+    box-shadow: 0 4px 16px rgba(2, 132, 199, 0.15);
+}
+
+.app.light .contact-label {
+    color: #64748b;
+}
+
+.app.light .contact-value {
+    color: #0284c7;
+}
+
+.app.light .contact-footer {
+    border-top-color: #e2e8f0;
+}
+
+.app.light .contact-footer p {
+    color: #475569;
+}
+
+/* Project cards light mode */
+.app.light .project-card {
+    background: linear-gradient(135deg, rgba(224, 242, 254, 0.4), rgba(255, 255, 255, 0.9));
+    border-color: #bae6fd;
+}
+
+.app.light .project-card:hover {
+    border-color: #7dd3fc;
+    background: linear-gradient(135deg, rgba(224, 242, 254, 0.6), rgba(255, 255, 255, 1));
+    box-shadow: 0 12px 40px rgba(2, 132, 199, 0.15);
+}
+
+.app.light .project-card h3 {
+    color: #0f172a;
+}
+
+.app.light .project-card p {
+    color: #475569;
+}
+
+.app.light .project-link {
+    color: #0284c7;
+}
+
+.app.light .project-link:hover {
+    color: #0369a1;
+}
+
+.app.light .project-stat {
+    background: rgba(2, 132, 199, 0.12);
+    color: #0369a1;
+    border-color: #7dd3fc;
+}
+
+.app.light .category-title {
+    color: #64748b;
+}
+
+/* Footer in light mode */
+.app.light .footer {
+    border-top-color: #e2e8f0;
+    color: #64748b;
+}
+
+/* Theme toggle in light mode */
+.app.light .theme-toggle {
+    background: rgba(255, 255, 255, 0.9);
+    border-color: #cbd5e1;
+    color: #0f172a;
+    font-weight: 500;
+}
+
+.app.light .theme-toggle:hover {
+    background: #f1f5f9;
+    border-color: #94a3b8;
+}
+
+/* Language toggle in light mode */
+.app.light .language-toggle {
+    background: rgba(255, 255, 255, 0.9);
+    border-color: #cbd5e1;
+}
+
+.app.light .language-toggle:hover {
+    background: #f1f5f9;
+    border-color: #94a3b8;
+}

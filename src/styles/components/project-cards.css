@@ -1,0 +1,190 @@
+/* ============================================
+   PROJECT CARDS
+   ============================================ */
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+    padding: 0.5rem;
+}
+
+@media (max-width: 640px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 0;
+        margin-top: 1.5rem;
+    }
+}
+
+.project-card {
+    border-radius: 1.5rem;
+    border: 1px solid rgba(148, 163, 184, 0.1);
+    padding: 2rem;
+    background: linear-gradient(135deg, rgba(15, 23, 42, 0.6) 0%, rgba(30, 41, 59, 0.4) 100%);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06), inset 0 1px 0 rgba(148, 163, 184, 0.1);
+    will-change: transform;
+}
+
+.project-card * {
+    pointer-events: auto;
+}
+
+.project-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #38bdf8 0%, #818cf8 50%, #c084fc 100%);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.project-card::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 1.5rem;
+    padding: 1px;
+    background: linear-gradient(135deg, rgba(56, 189, 248, 0.2), rgba(129, 140, 248, 0.2));
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.project-card:hover::before {
+    transform: scaleX(1);
+}
+
+.project-card:hover::after {
+    opacity: 1;
+}
+
+.project-card:hover {
+    transform: translateY(-8px) scale(1.05);
+    border-color: rgba(56, 189, 248, 0.4);
+    box-shadow:
+        0 20px 40px rgba(56, 189, 248, 0.2),
+        0 10px 20px rgba(129, 140, 248, 0.15),
+        0 0 0 1px rgba(56, 189, 248, 0.1),
+        inset 0 1px 0 rgba(148, 163, 184, 0.2);
+    background: linear-gradient(135deg, rgba(15, 23, 42, 0.9) 0%, rgba(30, 41, 59, 0.7) 100%);
+}
+
+.project-card:hover .project-icon {
+    transform: scale(1.1) rotate(5deg);
+    filter: drop-shadow(0 0 12px rgba(56, 189, 248, 0.6));
+}
+
+.project-icon {
+    font-size: 2rem;
+    filter: drop-shadow(0 0 8px rgba(56, 189, 248, 0.4));
+    transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.project-card h3 {
+    margin: 0;
+    font-size: 1.3rem;
+    color: #e5e7eb;
+}
+
+.project-card p {
+    color: #cbd5e1;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+.project-stats {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.project-stat {
+    font-size: 0.75rem;
+    padding: 0.35rem 0.75rem;
+    border-radius: 999px;
+    background: rgba(56, 189, 248, 0.15);
+    color: #7dd3fc;
+    border: 1px solid rgba(56, 189, 248, 0.3);
+    font-weight: 500;
+}
+
+.project-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #38bdf8;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0;
+    transition: all 0.2s ease;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.project-link:hover {
+    color: #7dd3fc;
+    gap: 0.75rem;
+}
+
+/* Mobile responsive styles for project cards */
+@media (max-width: 800px) {
+    .projects-grid {
+        grid-template-columns: 1fr !important;
+        gap: 1rem;
+        padding: 0;
+        width: 100%;
+        display: grid !important;
+    }
+
+    .project-card {
+        padding: 1.5rem;
+        border-radius: 1rem;
+        width: 100%;
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    .project-card h3 {
+        font-size: 1.1rem;
+    }
+
+    .project-icon {
+        font-size: 1.5rem;
+    }
+
+    .project-card p {
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+
+    .project-stats {
+        gap: 0.5rem;
+    }
+
+    .project-stat {
+        font-size: 0.85rem;
+    }
+
+    .project-link {
+        font-size: 0.9rem;
+    }
+}

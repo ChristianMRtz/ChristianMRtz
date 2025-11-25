@@ -1,0 +1,39 @@
+/* ============================================
+   MAIN RESPONSIVE STYLES
+   ============================================ */
+
+@media (max-width: 800px) {
+    .hero {
+        grid-template-columns: 1fr;
+        min-height: auto;
+    }
+
+    .hero-right {
+        order: -1;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+    }
+
+    .section {
+        padding: 2rem 1rem;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr !important;
+        gap: 1rem;
+        padding: 0;
+        width: 100%;
+        display: grid !important;
+    }
+
+    .project-link {
+        font-size: 0.9rem;
+    }
+}

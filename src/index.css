@@ -1,0 +1,87 @@
+/* ============================================
+   IMPORTS - MODULAR CSS ARCHITECTURE
+   ============================================ */
+
+/* Components */
+@import './styles/components/navbar.css';
+@import './styles/components/hero.css';
+@import './styles/components/sections.css';
+@import './styles/components/stats.css';
+@import './styles/components/skills.css';
+@import './styles/components/chips.css';
+@import './styles/components/tooltips.css';
+@import './styles/components/cards.css';
+@import './styles/components/project-cards.css';
+@import './styles/components/contact-footer.css';
+@import './styles/components/modal.css';
+@import './styles/components/projects-modal.css';
+@import './styles/components/skill-modal.css';
+@import './styles/components/stat-modal.css';
+@import './styles/components/contact-modal.css';
+
+/* Themes */
+@import './styles/themes/modal-light.css';
+@import './styles/themes/light-theme.css';
+
+/* Responsive */
+@import './styles/responsive/main-responsive.css';
+@import './styles/responsive/modal-responsive.css';
+
+/* ============================================
+   ROOT STYLES
+   ============================================ */
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro", sans-serif;
+  background: #000;
+  color: #e5e7eb;
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-padding-top: 80px;
+  background: #000;
+  min-height: 100%;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, #0f172a 0, #020617 45%, #000 100%);
+  min-height: 100vh;
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+}
+
+body.light-mode {
+  background: radial-gradient(circle at top, #e0f2fe 0, #f9fafb 55%, #f3f4f6 100%);
+}
+
+
+.app {
+  width: 100%;
+  margin: 0;
+  padding: 5rem 0 0;
+  position: relative;
+}
+
+/* Navigation, Hero, Sections, Stats, Skills, Chips, Cards, and all other component styles moved to modular files - see imports at top */
+
+  /* Modal-specific content styles now in separate files - see imports at top */
+  
+  /* Ensure all elements inside modals allow scroll */
+  .stat-modal-content *,
+  .skill-modal-content *,
+  .contact-modal-content *,
+  .projects-modal-content * {
+    pointer-events: auto;
+  }
+
+  /* Modals styles now in separate files - see imports at top */

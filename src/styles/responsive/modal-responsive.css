@@ -1,0 +1,65 @@
+/* ============================================
+   MODAL RESPONSIVE STYLES
+   ============================================ */
+
+@media (max-width: 768px) {
+
+    /* Stat Modal */
+    .stat-icon {
+        font-size: 2.5rem !important;
+    }
+
+    .stat-modal-header h4 {
+        font-size: 1rem !important;
+    }
+
+    /* Timeline */
+    .timeline-role {
+        font-size: 1rem !important;
+    }
+
+    .timeline-description {
+        font-size: 0.9rem;
+    }
+
+    .timeline-highlights li {
+        font-size: 0.85rem !important;
+    }
+
+    /* Tech Tags */
+    .tech-tag {
+        font-size: 0.8rem !important;
+        padding: 0.35rem 0.75rem !important;
+    }
+
+    /* Value Items */
+    .value-item {
+        padding: 1rem !important;
+    }
+
+    .value-title {
+        font-size: 0.95rem !important;
+    }
+
+    .value-description {
+        font-size: 0.9rem !important;
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* Stat Modal */
+    .stat-icon {
+        font-size: 2rem !important;
+    }
+
+    /* Tech Items */
+    .tech-items {
+        gap: 0.4rem !important;
+    }
+
+    .tech-tag {
+        font-size: 0.75rem !important;
+        padding: 0.3rem 0.65rem !important;
+    }
+}

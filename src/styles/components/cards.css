@@ -1,0 +1,38 @@
+/* ============================================
+   CARDS COMPONENT
+   ============================================ */
+
+.card {
+    border-radius: 1rem;
+    border: 1px solid rgba(148, 163, 184, 0.4);
+    padding: 1.25rem 1.5rem;
+    background: radial-gradient(circle at top left, rgba(148, 163, 184, 0.15), #020617);
+}
+
+.card h3 {
+    margin-top: 0;
+    margin-bottom: 0.35rem;
+    color: #e5e7eb;
+}
+
+.card h4 {
+    color: #e5e7eb;
+}
+
+.card-meta {
+    font-size: 0.8rem;
+    color: #6b7280;
+    margin-bottom: 0.75rem;
+}
+
+.card-list {
+    padding-left: 1.2rem;
+    color: #9ca3af;
+    font-size: 0.9rem;
+    line-height: 1.7;
+}
+
+.grid {
+    display: grid;
+    gap: 1.25rem;
+}
