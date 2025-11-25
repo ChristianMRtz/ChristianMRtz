@@ -1,4 +1,24 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+// Count-up hook for stat numbers
+function useCountUp(target: number, duration: number = 1200, decimals: number = 0) {
+    const [count, setCount] = useState(0);
+    useEffect(() => {
+        const start = 0;
+        const startTime = performance.now();
+        function animate(now: number) {
+            const elapsed = now - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+            const value = start + (target - start) * progress;
+            setCount(Number(value.toFixed(decimals)));
+            if (progress < 1) {
+                requestAnimationFrame(animate);
+            }
+        }
+        requestAnimationFrame(animate);
+        // eslint-disable-next-line
+    }, [target, duration, decimals]);
+    return count;
+}
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { HoverText } from "./HoverText";
@@ -36,6 +56,11 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
         }
     };
 
+    // Stat values
+    const experience = useCountUp(3.5, 1200, 1);
+    const technologies = useCountUp(10, 1200, 0);
+    const commitment = useCountUp(100, 1200, 0);
+
     return (
         <motion.section
             id="about"
@@ -55,7 +80,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
                         onMouseEnter={() => onStatHover("experience")}
                         onMouseLeave={() => onStatHover(null)}
                     >
-                        <div className="stat-number">3.5+</div>
+                        <div className="stat-number">{experience}+</div>
                         <div className="stat-label">{t('about.yearsExperience')}</div>
                     </button>
                     {hoveredStat === "experience" && (
@@ -78,7 +103,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
                         onMouseEnter={() => onStatHover("technologies")}
                         onMouseLeave={() => onStatHover(null)}
                     >
-                        <div className="stat-number">10+</div>
+                        <div className="stat-number">{technologies}+</div>
                         <div className="stat-label">{t('about.technologiesMastered')}</div>
                     </button>
                     {hoveredStat === "technologies" && (
@@ -101,7 +126,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({
                         onMouseEnter={() => onStatHover("commitment")}
                         onMouseLeave={() => onStatHover(null)}
                     >
-                        <div className="stat-number">100%</div>
+                        <div className="stat-number">{commitment}%</div>
                         <div className="stat-label">{t('about.codeCommits')}</div>
                     </button>
                     {hoveredStat === "commitment" && (

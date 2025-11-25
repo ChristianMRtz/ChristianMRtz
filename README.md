@@ -71,16 +71,16 @@ My background in **Biology & Biotechnology** strengthened my analytical thinking
 
 ## 🧩 What I Focus On
 
-### 🏗 Clean Architecture  
+### 🏗 Clean Architecture 
 Designing maintainable, modular systems that scale smoothly.
 
-### ⚡ Performance  
+### ⚡ Performance
 Efficient services, optimized queries, and responsive event-driven flows.
 
-### 🎨 UI Experience  
+### 🎨 UI Experience
 React + TypeScript to build polished, modern and intuitive interfaces.
 
-### 🔍 Reliability  
+### 🔍 Reliability
 Observability, proper error handling, metrics, logs, and stable deployments.
 
 ---
